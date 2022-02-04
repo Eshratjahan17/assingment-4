@@ -1,4 +1,4 @@
-//Problem 1
+//Problem 1 strat
 function anaToVori(ana) {
     //Error handling
     if (ana <= 0) {
@@ -12,9 +12,10 @@ function anaToVori(ana) {
 }
 var output = anaToVori(5);
 console.log(output);
+//Problem 1 end
 
 
-// Problem 2
+// Problem 2 start
 function pandaCost(singaraQuantity, somucaQuantity, jilapiQuantity) {
     //Error handling
     if (singaraQuantity < 0 || somucaQuantity < 0 || jilapiQuantity < 0) {
@@ -33,9 +34,10 @@ function pandaCost(singaraQuantity, somucaQuantity, jilapiQuantity) {
 
 const quantities = pandaCost(2, 5, 3);
 console.log(quantities);
+//Problem 2 end
 
 
-//Problem 3
+//Problem 3 start
 
 function picnicBudget(numberOfPeople) {
     //Error handling
@@ -78,8 +80,9 @@ function picnicBudget(numberOfPeople) {
 
 const people = picnicBudget(100);
 console.log(people);
+//Problem 3 end
 
-//Problem 4
+//Problem 4 start
 function oddFriend(friends) {
     //Error handling
     if (typeof friends != 'object') {
@@ -100,3 +103,4 @@ function oddFriend(friends) {
 let namesOfFrnds = ['abcd', 'tara', 'bcdac', 'jawaher', 'dola'];
 var stringCount = oddFriend(namesOfFrnds);
 console.log(stringCount);
+//Problem 4 end
