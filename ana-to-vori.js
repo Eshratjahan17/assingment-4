@@ -1,4 +1,4 @@
-//Ana to vori
+//Problem 1
 function anaToVori(ana) {
     //Error handling
     if (ana <= 0) {

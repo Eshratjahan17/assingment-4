@@ -1,3 +1,4 @@
+// Problem 2
 function pandaCost(singaraQuantity, somucaQuantity, jilapiQuantity) {
     //Error handling
     if (singaraQuantity < 0 || somucaQuantity < 0 || jilapiQuantity < 0) {
